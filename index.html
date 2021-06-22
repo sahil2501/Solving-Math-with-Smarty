@@ -1,0 +1,58 @@
+<html>
+<head>
+    <title>Solving Math with Smarty!</title>
+</head>
+<body style="text-align: center; background-color: red;">
+    <script>
+        console.log("Hellooo! My name is Smart. But I am known as Calculator. Hey! Now u do not need to open the calculator to calculate, because I will answer you sum!");
+        function addition() {
+            console.log("Okay, here's your answer for addition.");
+            var a = Number(document.getElementById("num1").value);
+            var b = Number(document.getElementById("num2").value);
+            var ans = a + b ;
+            console.log(ans);
+        }
+        function substraction() {
+            console.log("Take a look at this answer!");
+            var a = Number(document.getElementById("num1").value);
+            var b = Number(document.getElementById("num2").value);
+            var ans = a - b ;
+            console.log(ans);
+        }
+        function multiplication() {
+            console.log("See? I am smart.")
+            var a = Number(document.getElementById("num1").value);
+            var b = Number(document.getElementById("num2").value);
+            var ans = a * b ;
+            console.log(ans);
+        }
+        function division() {
+            console.log("Ohhhhh man! Why did ya give me division? It is the hardest dude.")
+            var a = Number(document.getElementById("num1").value);
+            var b = Number(document.getElementById("num2").value);
+            var ans = a / b ;
+            console.log(ans);
+        }
+    </script>
+    <h1 style="font-size: 100px; color: yellow;">Let's solve Math with Smarty!</h1>
+    <input id = "num1" style="background-color: yellow; color: black; font-weight: bolder;">
+    <br>
+    <input id = "num2" style="background-color: yellow; color: black; font-weight: bolder; margin-top: 30px; 
+    margin-bottom: 30px;">
+    <br>
+    <p style = "font-weight: bolder; color: yellow; margin-bottom: 30px;">Answer</p>
+     <br>
+     <div>
+     <button onclick="addition()" style = "font-weight: bolder; border-radius: 75px; color: yellow; background-color: darkblue; margin-bottom: 30px;">ADD</button>
+     </div>
+     <div>
+     <button onclick="substraction()" style = "font-weight: bolder; border-radius: 75px; color: yellow; background-color: darkblue; margin-bottom: 30px;">SUBSTRACT</button>
+    </div>
+    <div>
+        <button onclick="multiplication()" style = "font-weight: bolder; border-radius: 75px; color: yellow; background-color: darkblue; margin-bottom: 30px;">MULTIPLY</button>
+    </div>
+    <div>
+        <button onclick="division()" style = "font-weight: bolder; border-radius: 75px; color: yellow; background-color: darkblue; margin-bottom: 30px;">DIVIDE</button>
+    </div>
+</body>
+</html>
